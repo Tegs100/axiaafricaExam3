@@ -1,5 +1,7 @@
 // Import Mongoose ODM for MongoDB interaction
 const mongoose = require("mongoose");
+const bcrypt = require("bcryptjs");
+
 
 // Define User Schema with specific field requirements
 const userSchema = new mongoose.Schema(
